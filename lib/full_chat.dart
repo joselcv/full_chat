@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
+/// Main class, [FullChat] It is the main class, it allows you to inject widgets to be more flexible with the customization of these.
+/// The [leadingWidget] can be any widget such as the [trailingWidget]
 class FullChat extends StatelessWidget {
   final PreferredSizeWidget? appBar;
+
+  /// AppBar wrapped in PreferredSizeWidget to customize size
   final Widget? leadingWidget;
   final Widget? trailingWidget;
   final TextEditingController inputController;

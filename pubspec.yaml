@@ -1,7 +1,7 @@
 name: full_chat
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "This package provides a catalog of widgets ready to create a chat, and allows a high level of customization."
+version: 0.0.2
+homepage: https://github.com/joselcv/full_chat
 
 environment:
   sdk: '>=3.2.1 <4.0.0'
